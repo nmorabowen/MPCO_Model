@@ -44,6 +44,9 @@ class TH_parameters_plot_parameters:
     results_name_horizontalAxis='TIME'
     scaling_factor_verticalAxis=1
 
+    linestyle: str = '-'
+    linewidth: float = 1.0
+
 
 
 

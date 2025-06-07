@@ -1,12 +1,6 @@
-import numpy as np
+
+
 from STKO_to_python import MPCODataSet
-import matplotlib.pyplot as plt
-import os
-from matplotlib.gridspec import GridSpec
-
-from MPCO_Model.plotting.setup import PlotStyle
-PlotStyle()
-
 from MPCO_Model.plotting.plot import Plot
 
 class Model:
