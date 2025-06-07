@@ -22,6 +22,9 @@ class PlotStyle:
         ]
         self.full_palette = self.main_colors + self.extended_colors
 
+    def __call__(self):
+        self.apply()
+
     def apply(self):
         full_palette = self.full_palette
         plt.rcParams['axes.prop_cycle'] = cycler('color', full_palette)
@@ -60,3 +63,4 @@ class PlotStyle:
 
         # Figure appearance
         plt.rcParams['figure.dpi'] = 100
+

@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 import os
 from matplotlib.gridspec import GridSpec
 
-
+from MPCO_Model.plotting.setup import PlotStyle
+PlotStyle()
 
 class Model:
     def __init__(self, dataset: MPCODataSet):
