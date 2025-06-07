@@ -26,6 +26,7 @@ class Pushover_plot_parameters:
     linestyle: str = '-'
     linewidth: float = 1.0
 
+@dataclass
 class TH_parameters_plot_parameters:
     """
     Parameters for the time history data extraction and plotting.
